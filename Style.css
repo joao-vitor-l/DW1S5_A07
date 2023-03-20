@@ -1,0 +1,144 @@
+*, html {
+    margin: 0;
+}
+
+div.parent{
+    text-align: center;
+}
+
+div.child{
+    display: inline-block;
+    text-align: left;
+
+    padding-top: 100px;
+}
+
+div.stdpadding{
+    padding-bottom: 60px;
+}
+
+div.smallpadding{
+    padding-bottom: 20px;
+}
+
+div.stdpadding-postcontainer{
+    padding-bottom: 40px;
+}
+
+div.photopadding{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+div.footer{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.container-rows{
+    display: flex;
+    gap: 17px;
+    align-items: baseline;
+}
+
+.container-columns{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: baseline;
+}
+
+h1.name{
+    color: black;
+    font: 36px Gill Sans MT;
+}
+
+p{
+    color: #707070;
+    font: 22px Gill Sans MT;
+}
+
+p.dados-pessoais-color{
+    color: #65c49a;
+}
+
+p.qualificação-color{
+    color: #DE9B90;
+}
+
+p.personalidade-color{
+    color: #b8b07c;
+}
+
+p.skills-decoration{
+    margin-bottom: 20px;
+    
+    background: linear-gradient(to top, #FFC8BF 33%, #ffffff00 0%);
+    width: fit-content;
+    padding: 0 2px;
+    transform: skew(-13deg);
+}
+
+p.qualidades-decoration{
+    background: linear-gradient(to top, #eee291a8 33%, #ffffff00 0%);
+    width: fit-content;
+    padding: 0 2px;
+    transform: skew(-13deg);
+}
+
+p.defeitos-decoration{
+    background: linear-gradient(to top, #dadada 33%, #ffffff00 0%);
+    width: fit-content;
+    padding: 0 2px;
+    transform: skew(-13deg);
+}
+
+p.personalidade-margin{
+    margin-bottom: 20px;
+}
+
+p.small{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+p.divider{
+    font: 18px Times New Roman;
+}
+
+p.footer{
+    color: black;
+    font: 13.5px Arial;
+}
+
+a.dados-pessoais{
+    color: #65c49a;
+    font: 22px Gill Sans MT;
+}
+
+a.dados-pessoais:hover{
+    color: #5E917A;
+}
+
+a.qualificação{
+    margin-bottom: 20px;
+
+    color: #707070;
+    font: 22px Gill Sans MT;
+}
+
+a.qualificação:hover{
+    color: #994f46;
+}
+
+img.icon{
+    padding-right: 5px;
+ }
+
+.defeitos-color{
+    color: #9591AB;
+}
+
+.black{
+    color: black;
+}
